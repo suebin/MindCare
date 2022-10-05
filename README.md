@@ -5,6 +5,8 @@
 6명<br>
 #### 📌 PROJECT DURATION <br>
 2022.08.29 ~ 2022.08.31 <br>
+#### 📌 LAUNGUAGE <br>
+Java, JavaScript, HTML/CSS <br>
 #### 📌 SKILL <br>
 Java, JavaScript, HTML/CSS, jQuery, JSP, MyBatis, Ajax, JSTL<br>
 #### 📌 DB <br>
