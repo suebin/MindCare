@@ -18,4 +18,4 @@ Spring MVC 구조로 만든 디지털 치료 플랫폼 <br>
 ![6](https://user-images.githubusercontent.com/97905221/194129519-6ea69f0e-1f16-4489-955f-fd6574fb90f0.jpg)
 ![7](https://user-images.githubusercontent.com/97905221/194129528-baf75e11-76d7-46a5-9e45-f45c9334474e.jpg)
 ![8](https://user-images.githubusercontent.com/97905221/194129533-25deb735-9719-4f15-97a4-f4f010aa4a30.jpg)
-![9](https://user-images.githubusercontent.com/97905221/194129539-f85d04de-9360-4bc6-9c40-05e17893ec1a.jpg)
+![10](https://user-images.githubusercontent.com/97905221/194135080-49f55405-2c3c-4fb8-91fa-47627ebbbb77.jpg)
