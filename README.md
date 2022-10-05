@@ -1,16 +1,22 @@
 ## 마음약국
-#### 📌 Project Name <br>
+#### 📌 PROJECT NAME <br>
 마음약국 <br>
-#### 📌 Team <br>
+#### 📌 TEAM <br>
 6명<br>
-#### 📌 Project Duration <br>
+#### 📌 PROJECT DURATION <br>
 2022.08.29 ~ 2022.08.31 <br>
 #### 📌 SKILL <br>
-Java, JavaScript, HTML/CSS, jQuery, JSP, MyBatis <br>
+Java, JavaScript, HTML/CSS, jQuery, JSP, MyBatis, Ajax, JSTL<br>
+#### 📌 DB <br>
+MySQL<br>
 #### 📌 TOOL <br>
 Spring, Notion <br>
-#### 📌 Comment <br>
-Spring MVC 구조로 만든 디지털 치료 플랫폼 <br>
+#### 📌 BUILD TOOL <br>
+Maven <br>
+#### 📌 SERVER <br>
+Tomcat <br>
+#### 📌 COMMENT <br>
+Spring MVC 구조로 만든 디지털 치료 플랫폼 : Spring Legacy Project <br>
 
 ![1](https://user-images.githubusercontent.com/97905221/194129465-0b02af4f-2f3c-4375-9192-7f38de2f6c01.jpg)
 ![2](https://user-images.githubusercontent.com/97905221/194129484-6b113678-b100-488e-bf20-29e3436add3f.jpg)
