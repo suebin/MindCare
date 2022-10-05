@@ -1,6 +1,8 @@
 ## 마음약국
 #### 📌 Project Name <br>
 마음약국 <br>
+#### 📌 Team <br>
+6명<br>
 #### 📌 Project Duration <br>
 2022.08.29 ~ 2022.08.31 <br>
 #### 📌 SKILL <br>
