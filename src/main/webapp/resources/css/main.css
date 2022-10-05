@@ -1,0 +1,626 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-footer {
+    width:100%;
+    height: 110px;
+    bottom: 0px;
+    position: absolute;
+    background-color: #f0f7ff;
+    text-align: center;
+    font-size: 12px;
+}
+
+#img_right {
+    font-size: 3px;
+    color: #8b8b8b;
+}
+
+a {color:black; text-decoration: none; outline: none}
+	a:hover, a:active {text-decoration: none; color:black; background-color:none;} 
+
+body {
+    margin:0;
+}
+
+.container {
+    width : 100vw;
+    height : 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 4vw;
+}
+
+.nav-bar {
+    background-color: #f0f7ff;
+    width : 100%;
+    height : 11%;
+    display:flex;
+    position : relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-title {
+    width : 30%;
+    padding : 3%
+}
+
+.nav-bar-menu {
+    display : flex;
+    width : 30%;
+    z-index: 2;
+}
+
+.nav-bar-menu p {
+    margin-left : 20%;
+    font-size : 2vw;
+    font-family: 'Nanum Gothic';
+    cursor: pointer;
+}
+
+.nav-bar-menu p:hover {
+    font-weight: 800;
+}
+
+
+.nav-bar-loginform {
+    display: flex;
+    justify-content: end;
+    width :30%;
+    z-index: 3;
+}
+
+.nav-bar-loginform p {
+    margin-right : 10%;
+    font-size : 1.7vw;
+    font-family: 'Nanum Gothic';
+    cursor: pointer;
+}
+
+.nav-bar-loginform p:hover {
+    font-weight : 800;
+}
+
+.nav-bar-submenu {
+    width : 100%;
+    height : 150%;
+    position :absolute;
+    justify-content: center;
+    top: 70%;
+    align-items: center;
+    z-index: 1;
+}
+
+.submenu-menu {
+    background-color : rgb(222, 234, 236);
+    width : 100%;
+    height : 90%;
+    display: flex;
+    justify-content: center;
+    width : 100%;
+    display: flex;
+    height : 50%;
+}
+
+.submenu-menu:hover {
+    border-top : solid 2px rgb(109, 208, 233)
+}
+
+.submenu-menu p {
+    margin-left : 7%;
+    font-size : 130%;
+    font-family: 'Nanum Gothic';
+    cursor: pointer;
+}
+
+.submenu-menu p:hover {
+    font-weight : 800;
+}
+
+.content-box {
+    top : -5%;
+    width : 200%;
+    height : 80%;
+    display : flex;
+    position : relative;
+    transition: all 1s;
+}
+
+.content-box > div{
+    border : solid 3px #f0f7ff;
+    border-radius: 10px;
+    width : 13%;
+    height : 60%;
+    margin-top : 5%;
+    margin-right : 1%;
+    margin-left : 2%;
+    overflow: hidden;
+    box-shadow: 50px;
+    display : flex;
+}
+
+.overlay-box {
+    width : 100%;
+    height : 100%;
+    opacity : 0;
+    transition: all 1s;
+    position : relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay {
+    position:absolute;
+    background-color: black;
+    width : 100%;
+    height : 100%;
+    opacity : 0.5;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;;
+}
+
+.text {
+    position: absolute;
+    font-size: 4vw;;
+    color:white;
+    z-index: 1;
+    opacity : 1;
+    font-size : 1.5vw;
+    font-family: 'gugi';
+}
+
+
+
+
+.overlay-box:hover {
+    opacity:1;
+}
+.button-form {
+    position : absolute;
+    left : 48%;
+    bottom : 18%;
+}
+
+/* button {
+    border-radius: 15px;
+    width : 10px;
+    height : 15px;
+} */
+
+button:hover {
+    background-color: black;
+}
+
+.close {
+    display : none;
+}
+
+.login-box {
+    position:absolute;
+    top : 20%;
+    left : 35%;
+    width: 30%;
+    height : 50%;
+    background-color: white;
+    border-radius: 40px;;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    margin-bottom : 15%;
+    width : 80%;
+    height :85%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-id {
+    width : 90%;
+    height : 23%;
+    margin : 3%;
+    border-radius : 25px;
+    background-color: rgb(207, 203, 203);
+    border: none;
+    font-size: 150%;
+    padding : 5%;
+}
+
+.login-pw {
+    width : 90%;
+    height : 23%;
+    margin : 3%;
+    border-radius : 25px;
+    background-color: rgb(207, 203, 203);
+    border: none;
+    font-size: 150%;
+    padding : 5%;
+}
+
+.login-form p {
+    font-size: 230%;
+    color : grey;
+
+}
+
+.login-button {
+    margin-top : 2%;
+    font-size : 200%;
+    border : none;
+    width : 100%;
+    height : 40%;
+    border-radius: 25px;
+    background-color: rgb(201, 205, 248);
+    color:grey;
+    cursor: pointer;
+}
+
+.signUp-form {
+    position:absolute;
+    top : 5%;
+    left : 25%;
+    width: 50%;
+    height : 75%;
+    background-color: white;
+    border-radius: 40px;
+    position :relative;
+    padding : 1%;
+}
+
+.signUp-form div {
+    margin-left : 10%;
+    width : 100%;
+    height : 15%;
+}
+
+.signUp-form div input {
+    width : 60%;
+    height : 60%;
+    border-radius : 25px;
+    background-color: rgb(207, 203, 203);
+    border: none;
+    font-size: 150%;
+    padding-left : 3%;
+
+}
+
+.signUp-form p {
+    top : 1%;
+    font-size: 3vw;
+    color : grey;
+    margin-left : 2%;
+}
+
+#signUp-button {
+    border : none;
+    width : 30%;
+    height : 50%;
+    border-radius: 25px;
+    background-color: rgb(201, 205, 248);
+    color:grey;
+    font-size: 2vw;
+}
+
+
+.id-button {
+    width : 20%;
+    height : 60%;
+    border-radius : 25px;
+    background-color:rgb(201, 205, 248);
+    border: none;
+    font-size: 1.7vw;
+    color:grey;
+    margin-left  :2%;
+}
+
+.email-button {
+    width : 20%;
+    height : 60%;
+    border-radius : 25px;
+    background-color:rgb(201, 205, 248);
+    border: none;
+    font-size: 1.7vw;
+    color:grey;
+    margin-left  :2%;
+}
+
+.myPage-form {
+    position:absolute;
+    top : 5%;
+    left : 25%;
+    width: 50%;
+    height : 75%;
+    background-color: white;
+    border-radius: 40px;
+    position :relative;
+    padding : 1%;
+}
+
+.myPage-form div {
+    margin-left : 10%;
+    width : 100%;
+    height : 15%;
+}
+
+.myPage-form div input {
+    width : 60%;
+    height : 60%;
+    border-radius : 25px;
+    background-color: rgb(207, 203, 203);
+    border: none;
+    font-size: 150%;
+    padding-left : 3%;
+}
+
+.myPage-form div span {
+    font-size: 2vw;
+    color : grey;
+}
+
+.myPage-form p {
+    top : 1%;
+    font-size: 3vw;
+    color : grey;
+    margin-left : 2%;
+}
+
+.myPage-form button {
+    width : 20%;
+    height : 60%;
+    border-radius : 25px;
+    background-color:rgb(201, 205, 248);
+    border: none;
+    font-size: 1.3vw;
+    color:grey;
+    margin-left  :5%;
+}
+
+.list-box {
+    width : 70%;
+    height : 70%;
+    position:absolute;
+    left : 15%;
+    top : 5%;
+    position : relative;
+    display:flex;
+    justify-content: center;
+}
+
+.list-table {
+    font-family: 'Gowun Dodum';
+    border : none;
+    position : absolute;
+    width : 90%;
+    left : 5%;
+    top : 15%;
+    text-align: left;
+}
+
+.list-table td {
+    border : none;
+    border-bottom : solid 1px rgb(229, 231, 248);
+}
+
+.search-box{
+    position:absolute;
+    width : 100%;
+    top : 90%;
+    display:flex;
+    justify-content: center;
+}
+
+.list-nav {
+    height : 10%;
+    font-weight: 900;
+    font-size : 1vw;
+    background-color: #f0f7ff;
+}
+
+.list-list {
+    height : 30%;
+    font-size: 1vw;;
+}
+
+.list-clean {
+    position : absolute;
+    top:3.5%;
+    left : 77.5%;
+    font-size: 1.5vw;
+}
+.list-clean a{
+    text-decoration: none;
+    font-size : 1.1vw;
+    color:black;
+    font-family: 'Gowun Dodum', sans-serif;
+
+}
+
+.search-form {
+    width : 80%;
+    display: flex;
+    justify-content: center;
+    position : relative;
+}
+
+.search{
+    width : 30%
+}
+
+.search-button {
+    border : 3px solid rgb(162, 205, 248);
+    margin-left : 2%;
+    border : none;
+    background-color:rgb(218, 233, 247);
+    color:grey;
+}
+
+.search-form button{
+    position : absolute;
+    width : 10%;
+    height : 100%;
+    border : 3px solid rgb(162, 205, 248);
+    border : none;
+    background-color:rgb(218, 233, 247);
+    color:grey;
+    right : 10%;
+}
+
+.write-box {
+    width : 70%;
+    height : 70%;
+    position:absolute;
+    left : 15%;
+    top : 15%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border : double 5px rgb(229, 231, 248);
+}
+
+.write-form {
+    width : 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.write-button {
+    width : 15%;
+    height : 6%;
+    border-radius : 25px;
+    background-color:rgb(201, 205, 248);
+    border: none;
+    font-size: 1.3vw;
+    color:grey;
+    margin-top : 2%;
+    cursor: pointer;
+}
+
+.write-form input {
+    border : solid 2px rgb(229, 231, 248);
+    border-radius: 5px;
+}
+
+.write-form-title:hover {
+    width :100%;
+}
+
+.write-form textarea {
+    border : solid 2px rgb(229, 231, 248);
+    border-radius: 5px;
+    width : 99%;
+    height : 80%;
+    margin-top : 3%;
+}
+
+.update-box {
+    width : 70%;
+    height : 70%;
+    position:absolute;
+    left : 15%;
+    top : 5%;
+    position : relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-box input {
+    border : solid 2px rgb(201, 205, 248);
+}
+
+.update-box textarea {
+    border : solid 2px rgb(201, 205, 248);
+}
+
+.update-button {
+    width : 15%;
+    height : 6%;
+    border-radius : 25px;
+    background-color:rgb(201, 205, 248);
+    border: none;
+    font-size: 1.3vw;
+    color:grey;
+    margin-top : 2%;
+    cursor: pointer;
+} 
+
+.detail-box {
+    /* border-top : 3px solid rgb(218, 233, 247); */
+    width : 50%;
+    height : 70%;
+    position:absolute;
+    left : 25%;
+    top : 5%;
+    position : relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-title {
+    font-size: 2vw;
+}
+
+.detail-subtitle {
+    font-size : 1.1vw;
+    opacity: 0.5;
+}
+
+.detail-box tr,td {
+    padding-left : 0.2%;
+    border : none;
+}
+
+.detail-box table {
+    border : none;
+    width : 100%;
+    height : 100%;
+}
+
+.detail-text {
+    border-top: 1px solid  #f0f7ff;
+    display:flex;
+    padding-top : 5%;
+    width : 205%
+}
+
+.detail-button input {
+    width : 15%;
+    height : 6%;
+    background-color: rgb(218, 233, 247);
+    border: none;
+    font-size: 1.3vw;
+    color:grey;
+    margin-top : 2%;
+    cursor: pointer;
+}
