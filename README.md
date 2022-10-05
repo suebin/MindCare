@@ -1,4 +1,4 @@
-## 마음약국 : 디지털 치료 플랫폼
+
 
 ![1](https://user-images.githubusercontent.com/97905221/194129465-0b02af4f-2f3c-4375-9192-7f38de2f6c01.jpg)
 ![2](https://user-images.githubusercontent.com/97905221/194129484-6b113678-b100-488e-bf20-29e3436add3f.jpg)
